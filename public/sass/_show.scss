@@ -1,0 +1,232 @@
+.bloc-show {
+  margin-top: 40px;
+  .banniere {
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .sub-bloc-show {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    .show {
+      width: 40%;
+      .article-pct2 {
+        .pct-art2 {
+          border-radius: 15px;
+          .bloc-img {
+            margin-top: 10px;
+            width: 100%;
+            .art-show {
+              margin-right: 10px;
+              margin-top: 10px;
+            }
+          }
+        }
+        .svg-fav2 {
+          border-radius: 20px;
+        }
+      }
+    }
+    @media (max-width: $tablette-L-M2) {
+      .show {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: $tablette-L1) {
+      .sub-bloc-show {
+        width: 45%;
+      }
+    }
+    .desc-show {
+      width: 30%;
+      > p,
+      div {
+        margin-bottom: 10px;
+      }
+      .svg-color {
+        cursor: pointer;
+        width: 5%;
+        margin-right: 5px;
+      }
+      .taille {
+        margin-left: auto;
+      }
+      .btn-guide {
+        > .btn-taille {
+          padding: 20px 30px 20px 30px;
+          border: solid 0.2px;
+          border-radius: 3px;
+          outline: none;
+          cursor: pointer;
+          color: $grisArticle;
+          > p {
+            color: $noir;
+          }
+        }
+      }
+      .btn-taille:hover {
+        border-color: $noir;
+      }
+      .bloc-btn {
+        margin-left: 5%;
+        .btn-add,
+        .btn-fav {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding: 20px 120px;
+          border-radius: 26.5px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          position: relative;
+        }
+        @media (max-width: $tablette-2XS) {
+          .btn-add,
+          .btn-fav {
+            margin-top: 20px;
+            padding: 20px 90px;
+          }
+        }
+        @media (max-width: $tablette-2XS) {
+          .btn-add,
+          .btn-fav {
+            padding: 20px 80px;
+          }
+        }
+      }
+      @media (max-width: $tablette-4XL) {
+        .bloc-btn {
+          margin-left: 0%;
+        }
+      }
+      .btn-add:hover {
+        background-color: $grisArticle;
+        .p-send {
+          color: $noir;
+        }
+      }
+      .btn-fav:hover {
+        background-color: $grisArticle;
+        .p-send {
+          color: $noir;
+        }
+      }
+      .bloc-desc {
+        margin-top: 50px;
+        border-top: solid 1px;
+        border-color: $grisL;
+        .p-bloc-desc {
+          margin-top: 20px;
+          border-bottom: solid 1px;
+          border-color: $grisL;
+          padding-bottom: 20px;
+        }
+        .bloc-delivery {
+          border-bottom: solid 1px;
+          border-color: $grisL;
+          .p-delivery {
+            margin-top: 40px;
+            padding-bottom: 40px;
+          }
+          .svg-delivery {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+          }
+          .p-toggle {
+            margin-bottom: 20px;
+          }
+        }
+        .opinion {
+          margin-bottom: 13px;
+          .rating {
+            margin-left: 15px;
+            margin-right: 9px;
+          }
+        }
+      }
+      .eco {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        .svg-eco {
+          margin-right: 10px;
+        }
+      }
+    }
+    @media (max-width: $desktop-L) {
+      .desc-show {
+        width: 35%;
+      }
+    }
+    @media (max-width: $desktop) {
+      .desc-show {
+        width: 40%;
+      }
+    }
+    @media (max-width: $tablette-XL) {
+      .desc-show {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: $tablette-L) {
+      .desc-show {
+        width: 50%;
+      }
+    }
+    @media (max-width: $tablette-L-M) {
+      .desc-show {
+        width: 55%;
+      }
+    }
+    @media (max-width: $tablette-L-M2) {
+      .desc-show {
+        margin-top: 50px;
+        width: 60%;
+      }
+    }
+    @media (max-width: $tablette-M) {
+      .desc-show {
+        width: 69%;
+      }
+    }
+    @media (max-width: $tablette-M-S) {
+      .desc-show {
+        width: 79%;
+      }
+    }
+    @media (max-width: $tablette-S) {
+      .desc-show {
+        width: 90%;
+      }
+    }
+    @media (max-width: $tablette-XXS) {
+      .desc-show {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: $tablette-3XL) {
+    .sub-bloc-show {
+      width: 85%;
+    }
+  }
+  @media (max-width: $tablette-L1) {
+    .sub-bloc-show {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-between;
+    }
+  }
+  @media (max-width: $tablette-L-M2) {
+    .sub-bloc-show {
+      flex-direction: column;
+    }
+  }
+}

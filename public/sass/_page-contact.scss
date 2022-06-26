@@ -1,0 +1,261 @@
+.page-contact {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+  .sectionContact {
+    border-radius: 8px 8px 8px 8px;
+    .close-modal {
+      border: none;
+      outline: none;
+      background: none;
+      position: absolute;
+      top: 170px;
+      left: 75%;
+      cursor: pointer;
+    }
+    @media (max-width: $tablette-XL) {
+      .close-modal {
+        left: 73%;
+        img {
+          width: 80%;
+        }
+      }
+    }
+    @media (max-width: $tablette-M-S2) {
+      .close-modal {
+        left: 73%;
+        img {
+          width: 60%;
+        }
+      }
+    }
+
+    .article-modal {
+      display: contents;
+      .bloc-form1 {
+        padding: 30px 40px 12px 105px;
+        .title-modal {
+          display: flex;
+          margin-bottom: 115px;
+          margin-left: 50px;
+          .pointR {
+            padding-left: 5px;
+            margin-top: 32px;
+          }
+        }
+        .login,
+        .subscribe {
+          .line {
+            margin-bottom: 30px;
+            border: solid 1px;
+          }
+          input[type="text"] {
+            border: none;
+            outline: none;
+            margin-top: 5px;
+            padding: 10px 0px 10px 5px;
+            width: 364px;
+
+            ::placeholder {
+              font-style: italic;
+            }
+            .champsForm {
+              background: none;
+            }
+          }
+          @media (max-width: $tablette-M) {
+            input[type="text"] {
+              width: 100%;
+            }
+          }
+          .submit {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 58px;
+            margin-bottom: 23px;
+            padding: 20px 84px;
+            border-radius: 26.5px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+          .lost {
+            text-align: center;
+          }
+        }
+      }
+
+      .bloc-form2 {
+        padding: 30px 40px 60px 52px;
+        border-radius: 8px 8px 8px 8px;
+        .hM {
+          margin-left: auto;
+          margin-right: auto;
+          .pointR {
+            padding-left: 5px;
+            margin-top: 32px;
+          }
+        }
+        @media (max-width: $desktop-S) {
+          .hM {
+            font-size: 40px;
+          }
+        }
+        @media (max-width: $tablette-M) {
+          .hM {
+            font-size: 30px;
+          }
+        }
+        @media (max-width: $tablette-M-S2) {
+          .hM {
+            font-size: 20px;
+            .pointR {
+              width: 3%;
+              margin-top: 12px;
+            }
+          }
+        }
+        .p-modalTitle {
+          width: 80%;
+          padding-top: 26px;
+          padding-bottom: 29px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bloc-inptu1 {
+          margin-right: 75px;
+        }
+        @media (max-width: $tablette-3L) {
+          .bloc-inptu1 {
+            width: 40%;
+          }
+          .bloc-inptu2 {
+            width: 40%;
+          }
+        }
+        @media (max-width: $tablette-3L) {
+          .bloc-inptu1 {
+            width: 100%;
+          }
+          .bloc-inptu2 {
+            width: 100%;
+          }
+        }
+
+        input[type="aria"] {
+          height: 100%;
+          width: 100%;
+          margin-top: 5px;
+          padding-top: 140px;
+          width: 100%;
+        }
+        .login,
+        .subscribe {
+          margin-top: 30px;
+          .line {
+            margin-bottom: 30px;
+            border: solid 1px;
+          }
+
+          input[type="text"] {
+            border: none;
+            outline: none;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 0px 10px 5px;
+            width: 286px;
+            background: none;
+
+            ::placeholder {
+              font-style: italic;
+            }
+            .champsForm {
+              background: none;
+            }
+          }
+          @media (max-width: $tablette-M) {
+            input[type="text"] {
+              width: 100%;
+            }
+          }
+          input[type="email"] {
+            border: none;
+            outline: none;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 0px 10px 5px;
+            width: 286px;
+            background: none;
+
+            ::placeholder {
+              font-style: italic;
+            }
+            .champsForm {
+              background: none;
+            }
+          }
+          @media (max-width: $tablette-M) {
+            input[type="email"] {
+              width: 100%;
+            }
+          }
+          input[type="text"] {
+            border: none;
+            outline: none;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 0px 10px 5px;
+            width: 286px;
+            background: none;
+          }
+          @media (max-width: $tablette-M) {
+            input[type="text"] {
+              width: 100%;
+            }
+          }
+          .submit {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 58px;
+            padding: 20px 84px;
+            border-radius: 26.5px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+          @media (max-width: $desktop-S) {
+            .submit {
+              display: none;
+            }
+            .submit-mob {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 58px;
+              margin-bottom: 23px;
+              padding: 20px 84px;
+              border-radius: 26.5px;
+              border: none;
+              outline: none;
+              cursor: pointer;
+            }
+          }
+          @media (max-width: $tablette-M-S) {
+            .submit-mob {
+              width: 100%;
+              padding: 20px 40px;
+            }
+          }
+        }
+        @media (max-width: $desktop-S) {
+          .subscribe {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

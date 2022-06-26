@@ -1,0 +1,115 @@
+.home-man {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: calc((756px * 90vw) / 1440px);
+}
+.article-produits {
+  margin-left: 97px;
+  margin-right: 97px;
+  .h1-produits {
+    margin-top: 24px;
+    margin-bottom: 26px;
+  }
+  .sub-produits {
+    flex-wrap: wrap;
+    .article-pct {
+      width: 30%;
+      margin-right: 15px;
+      position: relative;
+      flex-shrink: 0;
+      margin-bottom: 43px;
+      .pct-art {
+        border-radius: 15px;
+      }
+      .circle {
+        position: absolute;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"><path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/></svg>')
+          no-repeat center;
+        width: 20px;
+        height: 20px;
+        border: 1px;
+        margin: auto;
+        padding: 10px 10px;
+        border-radius: 59px;
+        background-color: $blanc;
+        top: 15px;
+        left: 85%;
+        filter: drop-shadow(3px 2px 4px rgba(0, 0, 0, 0.25));
+        &:hover {
+          background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" fill="red" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/></svg>');
+        }
+      }
+      @media (max-width: $tablette-3L) {
+        .circle {
+          left: 83%;
+        }
+      }
+      @media (max-width: $tablette-XL) {
+        .circle {
+          left: 80%;
+        }
+      }
+      @media (max-width: $tablette-L1) {
+        .circle {
+          left: 75%;
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+    @media (max-width: $tablette-L) {
+      .article-pct {
+        width: 47%;
+      }
+    }
+    @media (max-width: $tablette-M-S1) {
+      .article-pct {
+        width: 100%;
+      }
+    }
+  }
+
+  .desc {
+    background-color: none;
+    .desc-article {
+      margin-top: 7px;
+      margin-bottom: 13px;
+      margin-left: 15px;
+    }
+    .opinion {
+      margin-bottom: 13px;
+      .rating {
+        margin-left: 15px;
+        margin-right: 9px;
+      }
+    }
+    .desc-price {
+      margin-left: 15px;
+    }
+    .rating {
+      direction: rtl;
+    }
+    .rating a {
+      text-decoration: none;
+      font-size: 1.5em;
+      transition: color 0.4s;
+    }
+  }
+}
+@media (max-width: $tablette-M) {
+  .article-produits {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (max-width: $tablette-M) {
+    .article-produits {
+      width: 90%;
+    }
+  }
+}

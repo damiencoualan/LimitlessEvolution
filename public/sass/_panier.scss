@@ -1,0 +1,146 @@
+.bloc-panier {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .panier {
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  @media (max-width: $tablette-L2) {
+    .panier {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  .article {
+    width: 50%;
+    .bloc-article {
+      margin-bottom: 20px;
+
+      @media (max-width: $tablette-XS) {
+        .bloc-img {
+          padding-bottom: 20px;
+          border-bottom: solid 1px;
+        }
+      }
+
+      .img {
+        width: 50%;
+      }
+      .input-panier {
+        border: none;
+        background: none;
+        outline: none;
+      }
+      .desc-cmd {
+        margin-left: 5px;
+      }
+      .price-unit {
+        margin-bottom: 50px;
+        .bloc-delete {
+          justify-content: space-between;
+        }
+      }
+      @media (max-width: $tablette-XS) {
+        .price-unit {
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+      }
+      .delete-cmd {
+        width: 10%;
+        cursor: pointer;
+      }
+    }
+    @media (max-width: $tablette-XS) {
+      .bloc-article {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: $tablette-XS) {
+      .line-panier {
+        display: block;
+        border-bottom: solid 1px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  @media (max-width: $tablette-L2) {
+    .article {
+      width: 100%;
+    }
+    .send {
+      text-align: center;
+    }
+  }
+  @media (max-width: $tablette-XS) {
+    .bloc-price-mob {
+      margin-top: 20px;
+      .info-mob {
+        display: block;
+      }
+    }
+    .info-desktop {
+      display: none;
+    }
+  }
+
+  .price-commande {
+    display: block;
+    .info-commande {
+      border-bottom: solid 1px;
+      padding-bottom: 20px;
+    }
+    .bloc-price-total {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+      border-bottom: solid 1px;
+      justify-content: space-between;
+    }
+    .input-panier {
+      border: none;
+      background: none;
+      outline: none;
+      text-align: end;
+    }
+
+    .btn-add,
+    .btn-delete-cmd {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 20px 10px;
+      border-radius: 26.5px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+    }
+
+    @media (max-width: $tablette-XS) {
+    }
+  }
+}
+@media (max-width: $desktop) {
+  .bloc-panier {
+    width: 75%;
+  }
+}
+@media (max-width: $tablette-3L) {
+  .bloc-panier {
+    width: 85%;
+  }
+}
+
+.bloc-delete-cmd {
+  padding-top: 100px;
+  margin-bottom: 160px;
+  justify-content: space-around;
+  .close-panier {
+    cursor: pointer;
+  }
+}

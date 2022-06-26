@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap");
+
+///////////////FONT-FAMILY/////////////
+h1,
+h2,
+h3,
+.h1-bloc-man,
+.h1-bloc-mob,
+.h1-panier,
+.h1-recap,
+.h3-insta,
+.hM,
+footer,
+input,
+.link-nav,
+.elm-h1,
+.p-send,
+label,
+.champsForm,
+.p-bloc-down,
+.link-product,
+.link-product2,
+.history,
+.desc-article,
+.p-story,
+.story-mobil,
+.p-bull,
+.p-bots,
+.p-modalTitle,
+.title-newsletter,
+.h-news,
+.p-news,
+.setting,
+.h2-compte,
+.elm-panier,
+.banniere,
+.desc-show,
+td,
+tr,
+.p-btn-man,
+.p-btn-girl,
+.h-conditions,
+.h-politique,
+.h-contact,
+.politique,
+.total,
+.info-commande,
+.send,
+.cmd-id,
+.id,
+.title-recap,
+.id-payment,
+.btn-modif,
+.id-modif,
+.p-ok,
+.p-alert,
+.alert-login {
+  font-family: $blinker;
+}
+.desc-price,
+.desc-price-show,
+.p-lost {
+  font-family: $Montserrat;
+}
+
+.p-day,
+.title,
+.title-panier {
+  font-family: $Inter;
+}
+///////////////COLOR/////////////
+.input-error {
+  color: $rouge;
+}
+a,
+.elm-h1,
+.hM,
+.h1-produits,
+.h1-panier,
+.h1-recap,
+.title-newsletter,
+.h2-product,
+.h2-compte,
+.h1-bloc-mob,
+.h-conditions,
+.h-politique,
+.h-contact,
+.story-mobil,
+.alert-login {
+  color: $noir;
+}
+
+.champsForm,
+.info-fav,
+.send-fav,
+.taille,
+.elm-footer,
+.elm-footer2 {
+  color: $grisL;
+}
+.p-story,
+h1,
+h2,
+.button-man-mob,
+.p-btn-man,
+.p-send,
+.p-btn-girl,
+.h-news,
+.p-news,
+.setting,
+.log-out,
+.btn-success,
+.btn-panier,
+.h-admin,
+.h-edit,
+.h3-Footer,
+.elmF,
+.article3F,
+.elm-info,
+.h1-bloc-man,
+.h1-bloc-girl,
+.send,
+.id-payment,
+.p-cmp,
+.p-404,
+.p-alert {
+  color: $blanc;
+}
+
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+  color: $orange;
+  cursor: pointer;
+}
+
+///////////////BACKGROUND-COLOR/////////////
+.sectionModal,
+.section-login,
+.sub-bloc,
+.bots,
+.circle,
+.mobile,
+.modal-panier,
+.btn-taille,
+.button-man {
+  background-color: $blanc;
+}
+.btn-add,
+.btn-delete-cmd,
+.btn-payment {
+  background-color: $noir;
+}
+footer {
+  background-color: #111;
+}
+
+.bloc-banniere {
+  background-color: $grisF;
+  border-radius: 0px 8px 8px 0px;
+}
+.bloc-form2 {
+  background-color: $grisF;
+}
+
+.bloc-check {
+  background-color: $grisF;
+}
+.overlay,
+.setting {
+  background-color: $overlay;
+  backdrop-filter: blur(4px);
+}
+.overlay404 {
+  background-color: $overlay;
+  backdrop-filter: blur(1px);
+}
+
+.pct-art,
+.art-show,
+.bull,
+.carte {
+  background-color: $grisArticle;
+}
+.button-girl,
+.submit,
+.submit-mob,
+.btn-panier,
+.btn-fav,
+.button-man {
+  background-color: $rouge;
+}
+.sectionModal2,
+.section-login {
+  background-color: $grisModal;
+}
+.add {
+  background-color: $add;
+}
+.edit {
+  background-color: $edite;
+}
+.delete {
+  background-color: $delete;
+}
+
+///////////////HOVER/////////////
+
+.bi-heart:hover {
+  outline: none;
+  border: none;
+  background: $rouge;
+}
+
+///////////////STYLE/////////////
+.title-panier,
+.p-ok,
+.alert-login {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 44px;
+}
+@media (max-width: $tablette-L) {
+  .alert-login {
+    font-size: 20px;
+  }
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138%;
+}
+.p-bloc-down {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+h1,
+h2,
+.h1-panier,
+.h1-bloc-man,
+.h1-bloc-girl {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 84px;
+}
+.h1-recap {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 84px;
+}
+@media (max-width: $tablette-XL) {
+  .h1-bloc-man {
+    font-size: 60px;
+  }
+}
+@media (max-width: $tablette-L1) {
+  .h1-bloc-man {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: $tablette-L) {
+  .h1-bloc-mob {
+    font-size: 60px;
+  }
+}
+.p-Newsletter {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+.title-show,
+.title-recap {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+}
+.elm-panier,
+.p-matiere,
+.cmd-id {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.link-product,
+.link-product2,
+.exclusi,
+.story-mobilf {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+}
+
+@media (max-width: $tablette-M-S2) {
+  .link-product {
+    font-size: 14px;
+  }
+}
+@media (max-width: $tablette-XXS) {
+  .link-product {
+    font-size: 12px;
+  }
+}
+.desc-article,
+.id {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.elm-footer,
+.elm-footer2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.elmF,
+.btn-SAV,
+.desc-price-show,
+.id-modif {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.hM,
+.title-newsletter,
+.h-news,
+.h-conditions,
+.h-politique,
+.h-contact {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 60px;
+}
+@media (max-width: $tablette-L) {
+  .h-news {
+    font-size: 45px;
+  }
+}
+@media (max-width: $tablette-M-S1) {
+  .h-news {
+    font-size: 35px;
+  }
+}
+.h2-product {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+.p-delivery,
+.total,
+.info-commande {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.taille {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+}
+.desc-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.p-story,
+.history,
+.p-news,
+.cmp1,
+.p-btn-girl,
+.p-btn-man {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 143%;
+}
+
+@media (max-width: $tablette-L) {
+  .p-news {
+    font-size: 16px;
+  }
+  .p-btn-girl,
+  .p-btn-man {
+    font-size: 16px;
+  }
+}
+@media (max-width: $tablette-M-S1) {
+  .p-news {
+    font-size: 14px;
+  }
+}
+.search,
+.elm-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.elm-h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+}
+a,
+ul,
+li,
+.cmp,
+.p-send,
+.send {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.champsForm,
+.p-lost {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+}
+h3,
+.h3-insta,
+.h1-produits {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+@media (max-width: $tablette-M-S2) {
+  .h3-insta {
+    font-size: 18px;
+  }
+}
+@media (max-width: $tablette-XXS) {
+  .h3-insta {
+    font-size: 16px;
+  }
+}
+.p-bots,
+.p-day,
+.msg,
+.title,
+.p-bull {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+.p-modalTitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+.p-404 {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 230px;
+}
+@media (max-width: $tablette-L1-2) {
+  .p-404 {
+    font-size: 170px;
+  }
+}
+@media (max-width: $tablette-M) {
+  .p-404 {
+    font-size: 120px;
+  }
+}
+@media (max-width: $tablette-XXS) {
+  .p-404 {
+    font-size: 90px;
+  }
+}
+.p-alert {
+  font-weight: 700;
+  font-size: 69px;
+  line-height: 83px;
+}
+@media (max-width: $tablette-L1-2) {
+  .p-alert {
+    font-size: 35px;
+  }
+}
+@media (max-width: $tablette-M) {
+  .p-alert {
+    font-size: 25px;
+    line-height: 45px;
+  }
+}
+@media (max-width: $tablette-XXS) {
+  .p-alert {
+    font-size: 15px;
+    line-height: 40px;
+  }
+}

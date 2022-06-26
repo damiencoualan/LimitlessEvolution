@@ -1,0 +1,97 @@
+.error-login {
+  width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  .section-login {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border-radius: 8px 8px 8px 8px;
+    .close-login {
+      border: none;
+      outline: none;
+      background: none;
+      position: absolute;
+      margin-left: 39.5%;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    @media (max-width: $tablette-2XL) {
+      .close-login {
+        margin-left: 37%;
+      }
+    }
+    @media (max-width: $tablette-L) {
+      .close-login {
+        margin-left: 54%;
+      }
+    }
+    @media (max-width: $tablette-M-S1) {
+      .close-login {
+        margin-left: 60%;
+      }
+    }
+    @media (max-width: $tablette-XS) {
+      .close-login {
+        margin-left: 70%;
+      }
+    }
+    .article-modal {
+      display: contents;
+      .bloc-form1 {
+        padding: 30px 40px 12px 55px;
+        .title-modal {
+          margin-bottom: 50px;
+        }
+        .login,
+        .subscribe {
+          .line {
+            margin-bottom: 30px;
+            border: solid 1px;
+          }
+          input {
+            border: none;
+            outline: none;
+            margin-top: 5px;
+            padding: 10px 0px 10px 5px;
+            width: 364px;
+            background: none;
+          }
+          @media (max-width: $tablette-2XL) {
+            input {
+              width: 240px;
+            }
+          }
+          .submit {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 58px;
+            margin-bottom: 23px;
+            padding: 20px 84px;
+            border-radius: 26.5px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+          .svg-error {
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: $tablette-L) {
+  .error-login {
+    width: 60%;
+  }
+}
+@media (max-width: $tablette-M-S1) {
+  .error-login {
+    width: 70%;
+  }
+}
+@media (max-width: $tablette-XS) {
+  .error-login {
+    width: 85%;
+  }
+}

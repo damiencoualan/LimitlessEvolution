@@ -1,0 +1,157 @@
+.bloc-recap {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  .h1-recap {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  @media (max-width: $tablette-XL) {
+    .h1-recap {
+      padding-top: 20px;
+      font-size: 35px;
+    }
+  }
+  @media (max-width: $tablette-M-S2) {
+    .h1-recap {
+      font-size: 28px;
+      line-height: 50px;
+    }
+  }
+  .bloc1-recap {
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    .article {
+      display: block;
+      .bloc-art {
+        width: 80%;
+        padding-bottom: 20px;
+        border-bottom: solid 1px;
+        margin-bottom: 20px;
+        border-color: $grisL;
+        .recap {
+          width: 100%;
+          margin-left: 20px;
+          .title-recap,
+          .id {
+            padding-bottom: 20px;
+          }
+        }
+      }
+
+      @media (max-width: $tablette-XL) {
+        .bloc-art {
+          width: 100%;
+        }
+      }
+      @media (max-width: $tablette-XS) {
+        .bloc-art {
+          flex-direction: column;
+          .recap {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .bloc-info {
+      width: 70%;
+      .cmd {
+        border-bottom: solid 1px;
+        border-color: $grisL;
+        .cmd-id {
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        .btn-modif {
+          margin-top: 10px;
+          margin-bottom: 100px;
+          text-align: end;
+          text-decoration: underline;
+        }
+      }
+      .bloc-card {
+        .payment-method {
+          margin-top: 20px;
+        }
+      }
+      .payment {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-around;
+        img {
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+      .carte {
+        border-radius: 8px;
+        .form-carte {
+          padding: 20px;
+          .p-add {
+            padding-bottom: 20px;
+          }
+          .clm-1 {
+            margin-bottom: 10px;
+          }
+          .clm-2 {
+            justify-content: space-between;
+          }
+          @media (max-width: $tablette-XS) {
+            input {
+              width: 100%;
+            }
+            .clm-2 {
+              flex-direction: column;
+            }
+          }
+          .btn-payment {
+            margin-top: 30px;
+            margin-left: 28%;
+            padding: 20px 60px;
+            border-radius: 26.5px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+          @media (max-width: $tablette-XS) {
+            .btn-payment {
+              margin-left: 20%;
+            }
+          }
+          @media (max-width: $tablette-3XS) {
+            .btn-payment {
+              margin-left: 15%;
+            }
+          }
+          @media (max-width: $mobile) {
+            .btn-payment {
+              margin-left: 10%;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: $tablette-XL) {
+      .bloc-info {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: $tablette-4XL) {
+    .bloc1-recap {
+      width: 90%;
+    }
+  }
+  @media (max-width: $tablette-XL) {
+    .bloc1-recap {
+      flex-direction: column;
+      width: 80%;
+    }
+  }
+  @media (max-width: $tablette-M-S) {
+    .bloc1-recap {
+      width: 90%;
+    }
+  }
+}

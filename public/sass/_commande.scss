@@ -1,0 +1,24 @@
+.article-recap-cmd {
+  display: flex;
+  .bloc-recap-commande {
+    margin-top: 150px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    .bloc-recap-cmd {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      .recap {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+@media (max-width: $tablette-L1-2) {
+  .article-recap-cmd {
+    flex-direction: column;
+    .bloc-recap-commande {
+      width: 50%;
+    }
+  }
+}

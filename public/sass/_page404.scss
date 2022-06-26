@@ -1,0 +1,22 @@
+.page404 {
+  background-image: url(../photo/404/MFG.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  .overlay404 {
+    width: 100%;
+    height: 100vh;
+    .msg {
+      width: 60%;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 8%;
+    }
+  }
+}

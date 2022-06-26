@@ -1,0 +1,35 @@
+.h-edit {
+  margin-left: 10%;
+}
+.bloc-edit {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  .elm-edit {
+    margin-bottom: 20px;
+    label {
+      margin: 20px;
+    }
+  }
+  .elm-edit1 {
+    margin-bottom: 20px;
+    label {
+      margin-right: 30px;
+      margin-left: 20px;
+    }
+  }
+  .elm-edit2 {
+    margin-bottom: 20px;
+    label {
+      margin-right: 99px;
+      margin-left: 20px;
+    }
+  }
+  .elm-edit3 {
+    margin-bottom: 20px;
+    label {
+      margin-right: 50px;
+      margin-left: 20px;
+    }
+  }
+}

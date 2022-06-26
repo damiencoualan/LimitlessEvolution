@@ -1,0 +1,19 @@
+.confirmation {
+  background-image: url(../photo/logo/panier/yes.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  .msg {
+    margin-left: auto;
+    margin-right: auto;
+    .p-ok {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+}
